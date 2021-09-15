@@ -10,6 +10,6 @@ public class AccountTest {
     @Test
 	@Disabled
     public void depositAnAmountToIncreaseTheBalance() {
-        assertThat("your first test").isBlank();
+        assertThat("your first test").isEqualTo("my first test");
     }
 }
